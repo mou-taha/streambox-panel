@@ -66,6 +66,7 @@
             ];
             $themeImage = $themes[$settings['is_theme']] ?? 'OneUI.webp';
         ?>
+        <?php if($adminType !== null &&  $adminType == 3){?>
         
         <div class="row g-4 mt-2">
             <div class="col-lg-7 col-md-6">
@@ -78,6 +79,8 @@
                     </div>
                 </div>
             </div>
+            <?php } ?>
+            
             <?php if($adminType !== null && $adminType == 1 or $adminType == 3){?>
                 <div class="col-lg-5 col-md-6">
                     <div class="card card-dashboard h-100">

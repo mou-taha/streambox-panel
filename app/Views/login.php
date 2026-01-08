@@ -9,7 +9,7 @@
                 <div class="card position-relative">
                     <div class="card-body px-4 py-5">
                         <div class="mb-4">
-                            <h5>Welcome to <?= esc($settings['app_name']) ?></h5>
+                            <h5>Welcome to <?= esc($settings['app_name']) ?>Panel</h5>
                             <p>Please sign-in to your account and start the adventure.</p>
                         </div>
                         <form action="<?= base_url('/ns-admin/login_handler');?>" method="POST">
@@ -26,7 +26,7 @@
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between mb-1">
                                     <label for="nsofts_password_input" class="form-label fw-semibold mb-0">Password</label>
-                                    <a href="<?= base_url('ns-admin/forgot-password') ?>" class="text-decoration-none">Forgot Password?</a>
+                                    <!-- <a href="<?= base_url('ns-admin/forgot-password') ?>" class="text-decoration-none">Forgot Password?</a> -->
                                 </div>
                                 <div class="nsofts-input-icon nsofts-input-icon--both">
                                     <label for="nsofts_password_input" class="nsofts-input-icon__left">
@@ -55,7 +55,7 @@
                             <div class="mb-3">
                                 <button type="submit" class="btn btn-primary btn-lg w-100">Sign in</button>
                             </div>
-                            <p class="text-center">New on our platform? <a href="<?= base_url('ns-admin/register') ?>" class="text-decoration-none">Create an account</a></p>
+                            <!-- <p class="text-center">New on our platform? <a href="<?= base_url('ns-admin/register') ?>" class="text-decoration-none">Create an account</a></p> -->
                         </form>
                     </div>
                 </div>
